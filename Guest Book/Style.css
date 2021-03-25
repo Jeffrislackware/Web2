@@ -1,0 +1,62 @@
+body{
+	font-family: sans-serif;
+}
+
+#Border{
+	border-radius: 5px;
+	width: 250px;
+	border-bottom:4px solid #BF3D3D;
+}
+
+table,tr,td{
+	border-radius: 5px;
+}
+
+input[type=submit]{
+	background: #2ECC71;
+	border-bottom:4px solid #26A65B;
+}
+
+input[type=reset]{
+	background: #EC5159;
+	border-bottom:4px solid #BF3D3D;
+}
+
+input[type=submit], input[type=reset] {
+	border-radius: 5px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 250px;
+	height: 30px;
+	color: #FFFFFF;
+}
+
+input[type=button]{
+	border-radius: 5px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 250px;
+	height: 30px;
+	color: #FFFFFF;
+}
+
+.Cancel{
+	background: #EC5159;
+	border-bottom:4px solid #BF3D3D;
+}
+
+#error{
+	border:1px solid red;
+	background:#ffc0c0; padding:5px;
+}
+
+textarea{
+	border-radius: 5px;
+}
+
+input[type=text]{
+	border-radius: 5px;
+	width: 362px;
+}
